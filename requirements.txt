@@ -1,3 +1,4 @@
-Flask==2.3.2  # Adjust version as needed
-gunicorn==20.1.0  # Latest stable version
-pytest==7.2.1  # For testing
+Flask
+Flask-SQLAlchemy
+gunicorn
+pytest
