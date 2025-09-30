@@ -21,7 +21,7 @@ def client():
 
 
 def login(client, username, password):
-    """Login helper function"""
+    """Login helper functionDogg"""
     return client.post(
         "/login",
         data=dict(username=username, password=password),
