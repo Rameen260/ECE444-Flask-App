@@ -30,7 +30,7 @@ def login(client, username, password):
 
 
 def logout(client):
-    """Logout helper function"""
+    """Logout helper functionCatt"""
     return client.get("/logout", follow_redirects=True)
 
 
